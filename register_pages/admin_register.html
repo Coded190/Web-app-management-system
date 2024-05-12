@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Register</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+        <h1>Admin Register</h1>
+        <p>Please fill in this form to create an account.</p>    
+      <form action="admin_register.php" method="post">
+        <table border="0">
+          <th colspan="2">Register Form</th>
+          <tr>
+            <td>Name</td>
+            <td><input type="text" name="name" maxlength="35" size="30"></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td><input type="text" name="email" maxlength="35" size="30"></td>
+          </tr>
+          <tr>
+            <td>Username</td>
+            <td><input type="text" name="username" maxlength="35" size="30"></td>
+          </tr>
+          <tr>
+            <td>Password</td>
+            <td><input type="password" name="password" maxlength="25" size="30"></td>
+          </tr>
+          <tr>
+            <td>Role</td>
+            <td><input type="text" name="role" maxlength="25" size="30"></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center"><input type="submit" value="Register"></td>
+          </tr>
+        </table>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Web App Management System. All rights reserved.</p>
+  </footer>
+</body>
+</html>

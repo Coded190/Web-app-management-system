@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Create a New Task</h1>
+  <form action="new_task.php" method="post">
+    <label for="task_name">Task Name:</label>
+    <input type="text" name="task_name" id="task_name" required>
+    <br>
+    <label for="task_description">Task Description:</label>
+    <input type="text" name="task_description" id="task_description" required>
+    <br>
+    <label for="operation">Operation</label>
+    <input type="text" name="operation" id="operation" required'>
+    <br>
+    <label for="enabling_condition">Enabling Condition:</label>
+    <input type="text" name="enabling_condition" id="enabling_condition" required>
+    <br>
+    <label for="frequency">Frequency:</label>
+    <input type="text" name="frequency" id="frequency" required>
+    <br>
+    <label for="admin_id">Admin ID:</label>
+    <input type="number" name="admin_id" id="admin_id" required>
+    <br>
+    <label for="staff_id">Staff ID:</label>
+    <input type="number" name="staff_id" id="staff_id" required>
+    <br>
+    <label for="client_id">Client ID:</label>
+    <input type="number" name="client_id" id="client_id" required>
+    <br>
+    <input type="submit" value="Create Task">
+</body>
+</html>
